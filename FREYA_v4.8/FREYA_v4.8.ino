@@ -64,9 +64,6 @@ void setup() {
   lcd.setCursor(0, 3);
   lcd.print("v4.8               ");
   delay(300);
-  lcd.setCursor(0, 0);
-  lcd.print("    A P A R E L'");
-  delay(800);
   lcd.setCursor(0, 1);
   lcd.print("     F R E Y A");
   delay(1800);

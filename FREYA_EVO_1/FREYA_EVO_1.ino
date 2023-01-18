@@ -84,9 +84,6 @@ void setup() {
     leds[i].setHue(i * 255 / LED_COUNT);
   }
   LEDS.show();
-  lcd.setCursor(0, 1);
-  lcd.print("    A P A R E L'    ");
-  delay(500);
   lcd.setCursor(0, 2);
   lcd.print(" F R E Y A    E V O ");
   delay(1800);
